@@ -26,7 +26,7 @@ Auth0 helps you to:
 
 ## Acknowledgements
 
-Very big thanks to Daniel Texeira from [calipho-sib](https://github.com/calipho-sib) for creating the initial version of this SDK.
+Very big thanks to Daniel Teixeira from [calipho-sib](https://github.com/calipho-sib) for creating the initial version of this SDK.
 
 ## License
 
