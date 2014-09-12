@@ -1,8 +1,6 @@
 # Spring Security Auth0
 
-[Auth0](https://www.auth0.com) is a cloud service that provides a turn-key solution for authentication, authorization and Single Sign On. 
-
-You can use  [Auth0](https://www.auth0.com) to add username/password authentication, support for enterprise identity like Active Directory or SAML and also for social identities like Google, Facebook or Salesforce among others to your web, API and mobile native apps. 
+This module allows you to use Auth0 with Spring Security. It'll validate the JWT from Auth0 in every API call to see if the user is authenticated or not.
 
 ## Learn how to use it
 
@@ -25,6 +23,10 @@ Auth0 helps you to:
 
 1. Go to [Auth0](http://developers.auth0.com) and click Sign Up.
 2. Use Google, GitHub or Microsoft Account to login.
+
+## Acknowledgements
+
+Very big thanks to Daniel Texeira from [calipho-sib](https://github.com/calipho-sib) for creating the initial version of this SDK.
 
 ## License
 
