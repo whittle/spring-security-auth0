@@ -17,6 +17,30 @@
 		<spring-security.version>3.2.4.RELEASE</spring-security.version>
 	</properties>
 
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Martin Gontovnikas</name>
+      <id>mgonto</id>
+      <roles>
+        <role>Developer Advocate</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <scm>
+    <url>https://github.com/auth0/spring-security-auth0</url>
+    <developerConnection>scm:git:git@github.com:auth0/spring-security-auth0.git</developerConnection>
+    <connection>scm:git:git@github.com:auth0/spring-security-auth0.git</connection>
+  </scm>
+
 	<dependencies>
 
 		<!-- Auth0 dependencies -->
