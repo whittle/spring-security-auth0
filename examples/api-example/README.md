@@ -1,4 +1,4 @@
-# Auth0 + NodeJS API Seed
+# Auth0 + Spring API Seed
 This is the seed project you need to use if you're going to create a Java API that will use Spring Security & Spring. You'll mostly use this API either for a SPA or a Mobile app. If you just want to create a Regular Java WebApp, please check [this other seed project](https://github.com/auth0/auth0-java/tree/master/examples/java-regular-webapp)
 
 #Running the example
