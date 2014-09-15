@@ -4,7 +4,7 @@
 
 	<groupId>com.auth0</groupId>
 	<artifactId>spring-security-auth0-api-example</artifactId>
-	<version>0.1-SNAPSHOT</version>
+        <version>0.2-SNAPSHOT</version>
 	<name>spring-security-auth0-api-example</name>
 	<url>http://auth0.com</url>
 	<packaging>jar</packaging>
@@ -22,7 +22,7 @@
 		<dependency>
 			<groupId>com.auth0</groupId>
 			<artifactId>spring-security-auth0</artifactId>
-			<version>${project.version}</version>
+                        <version>0.2</version>
 		</dependency>
 
 		<!-- Servlet dependencies -->
