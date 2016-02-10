@@ -18,7 +18,7 @@ import com.auth0.jwt.JWTVerifier;
 /**
  * Class that verifies the JWT token and in case of beeing valid, it will set
  * the userdetails in the authentication object
- * 
+ *
  * @author Daniel Teixeira
  */
 public class Auth0AuthenticationProvider implements AuthenticationProvider,
@@ -74,7 +74,9 @@ public class Auth0AuthenticationProvider implements AuthenticationProvider,
 	}
 
 	public boolean supports(Class<?> authentication) {
-		return Auth0JWTToken.class.isAssignableFrom(authentication);
+                Boolean supported = Auth0JWTToken.class.isAssignableFrom(authentication);
+                logger.debug(authentication + " is supported: " + supported);
+		return supported;
 	}
 
 	public void afterPropertiesSet() throws Exception {
